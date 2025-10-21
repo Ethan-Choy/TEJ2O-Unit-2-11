@@ -43,7 +43,7 @@ input.onGesture(Gesture.Shake, function() {
         basic.showNumber(randomNumber2)
         basic.clearScreen()
         basic.showIcon(IconNames.Happy)
-}else {
+        }else {
         basic.clearScreen()
         basic.showNumber(randomNumber1)
         basic.showString("<")
