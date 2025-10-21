@@ -36,7 +36,7 @@ input.onButtonPressed(Button.B, function () {
 
 // compare randomNumbers 
 input.onGesture(Gesture.Shake, function() {
-    basic.clearScreen()
+        basic.clearScreen()
     if (randomNumber1 > randomNumber2){
         basic.showNumber(randomNumber1)
         basic.showString(">")
@@ -44,7 +44,7 @@ input.onGesture(Gesture.Shake, function() {
         basic.clearScreen()
         basic.showIcon(IconNames.Happy)
 }else {
-    basic.clearScreen()
+        basic.clearScreen()
         basic.showNumber(randomNumber1)
         basic.showString("<")
         basic.showNumber(randomNumber2)
